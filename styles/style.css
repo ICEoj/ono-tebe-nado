@@ -43,7 +43,7 @@ body {
 }
 
 .header__links-list-item:last-child {
-  margin-bottom: 0;
+  padding-right: 0;
 }
 
 .header__logo {
@@ -60,7 +60,7 @@ body {
 
 .address {
   color: #000;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -135,16 +135,20 @@ body {
 
 .text__center {
   text-align: center;
-  padding-top: 20px;
-  padding-right: 60px;
+  padding-top: 15px;
+  padding-right: 39px;
+  padding-bottom: 19px;
 }
 
 .text__right {
+  word-spacing: -20px;
+  display: flex;
+  justify-content: end;
   text-align: right;
-}
-
-.aaaa {
   letter-spacing: 30px;
+  line-height: 1;
+  margin-inline-end: -48px;
+  margin-top: 5px;
 }
 
 .no-letter-spacing {
@@ -164,7 +168,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   padding-right: 34px;
-  margin-top: 132px;
+  margin-top: 130px;
 }
 
 .cover__description-text {
@@ -359,7 +363,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
-  margin: 180px 50px 90px 50px;
+  margin: 180px 32px 90px 50px;
 }
 
 .footer__address {
@@ -398,7 +402,7 @@ body {
 .footer__social-list {
   display: flex;
   justify-content: flex-end;
-  gap: 36px;
+  gap: 48px;
 }
 
 .footer__social-list-item {
