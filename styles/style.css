@@ -55,7 +55,6 @@ body {
   width: 148px;
   height: 105px;
   flex-shrink: 0;
-  padding-left: 13px;
 }
 
 .address {
@@ -126,33 +125,31 @@ body {
 }
 
 .text__left {
-  letter-spacing: 0px;
+  letter-spacing: 3px;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 30px;
+  letter-spacing: 60px;
 }
 
 .text__center {
   text-align: center;
   padding-top: 15px;
-  padding-right: 39px;
   padding-bottom: 14px;
 }
 
+.letter-spacing-30px {
+letter-spacing: 30px;
+}
+
 .text__right {
-  word-spacing: -20px;
-  display: flex;
-  justify-content: end;
   text-align: right;
   letter-spacing: 30px;
   line-height: 1;
-  margin-inline-end: -48px;
-  margin-top: 5px;
 }
 
 .no-letter-spacing {
-  letter-spacing: -30px;
+  letter-spacing: 0px;
 }
 
 .cover__description {
@@ -160,15 +157,14 @@ body {
   z-index: 3;
   justify-content: end;
   gap: 78px;
-  padding: 0px 50px 47px 0px;
+  padding: 0px 50px 50px 0px;
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
-  padding-right: 34px;
-  margin-top: 130px;
+  margin-top: 135px;
 }
 
 .cover__description-text {
@@ -196,7 +192,7 @@ body {
 
 .lots {
   display: block;
-  margin: 180px 32px 0px 50px;
+  margin: 180px 50px 0px 50px;
 }
 
 .lots__heading {
@@ -293,7 +289,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 25px;
-  margin: 179px 56px 0px 50px;
+  margin: 179px 50px 0px 50px;
 }
 
 .about__logo {
@@ -363,7 +359,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
-  margin: 180px 32px 90px 50px;
+  margin: 180px 50px 90px 50px;
 }
 
 .footer__address {
